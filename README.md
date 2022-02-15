@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with List Students App
 
 # [Demo](https://list-students.netlify.app/)
 
