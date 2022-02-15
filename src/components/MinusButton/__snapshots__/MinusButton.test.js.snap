@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests button component checks for changes in the code 1`] = `
+<button
+  className="-mt-6 text-2xl text-slate-500 hover:text-black"
+  onClick={[Function]}
+>
+  <ImMinus />
+</button>
+`;

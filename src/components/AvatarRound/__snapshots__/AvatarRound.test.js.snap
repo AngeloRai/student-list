@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checks for changes in the code 1`] = `
+<img
+  className="border-2 rounded-full w-24 m-2"
+/>
+`;
