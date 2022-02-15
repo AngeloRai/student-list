@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
-# Demo[https://hatchways-app-frontend.herokuapp.com/]
+# Demo[https://list-students.netlify.app/]
 
-https://hatchways-app-frontend.herokuapp.com/
+https://list-students.netlify.app/
 <br/><br/><br/>
 
 ## Installing in your macjine
