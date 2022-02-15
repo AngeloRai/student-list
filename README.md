@@ -9,13 +9,15 @@ https://list-students.netlify.app/
 
 ---
 
-1 - Inside project directory install all dependencies (packages) by typing:
+1 - Clone or download project
+
+2 - Inside project directory install all dependencies (packages) by typing in terminal:
 `npm install `
 
-2 - Run project on browser by typing:
+3 - Run project on browser using script:
 `npm start `
 
-3 - Go to http://localhost:3000
+4 - Go to http://localhost:3000
 
    <br/>
 
