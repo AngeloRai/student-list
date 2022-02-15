@@ -5,30 +5,31 @@
 https://list-students.netlify.app/
 <br/><br/><br/>
 
-## Installing in your macjine
+## Running project in your machine
 
 ---
 
 1 - Inside project directory install all dependencies (packages) by typing:
-`bash $ npm install `
+`npm install `
 
-3 - Run project on browser by typing:
-`bash $ npm start `
+2 - Run project on browser by typing:
+`npm start `
 
-4. Go to http://localhost:3000
+3 - Go to http://localhost:3000
+
    <br/>
 
 ## For tests
 
 ---
 
-1. In root directory type:
-   `bash $ npm run test `
-   <br/>
+1 - In root directory type:
+`npm run test `
+<br/>
 
 ## About
 
---- Application lists students info
---- User can filter by name and tag
---- User can see additional info through expandable detail section
---- User can add tags to students
+1. Application lists students info
+2. User can filter by name and tag
+3. User can see additional info through expandable detail section
+4. User can add tags to students
