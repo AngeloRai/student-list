@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests student info component renders without crashing 1`] = `
+<div
+  className="text-sm "
+>
+  <div>
+    City: 
+    New York
+  </div>
+  <div>
+    Email: 
+    student@student.com
+  </div>
+  <div>
+    Company: 
+    company
+  </div>
+  <div>
+    Skills: 
+  </div>
+  <div>
+    Average:
+     
+    2.50
+    %
+  </div>
+</div>
+`;

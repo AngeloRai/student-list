@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests tag input component renders without crashing 1`] = `
+<div>
+  <form>
+    <input
+      className="ml-3 text-sm appearance-none sticky focus:outline-none focus:border-b-[2px] focus:border-gray-700 border-b-[2px] p-2"
+      onChange={[Function]}
+      placeholder="Add a tag"
+      type="text"
+    />
+    <button
+      type="submit"
+    />
+  </form>
+</div>
+`;

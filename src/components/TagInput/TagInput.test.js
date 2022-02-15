@@ -1,19 +1,19 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
-import SearchInput from "./SearchInput";
+import TagInput from "./TagInput";
 import toJson from "enzyme-to-json";
 
-describe("tests search input component", () => {
+describe("tests tag input component", () => {
   let wrapper;
   const setState = jest.fn();
-  const mockPlaceholder = "John";
+  const mockPlaceholder = "Add a tag";
   const useStateSpy = jest.spyOn(React, "useState");
   useStateSpy.mockImplementation((init) => [init, setState]);
 
   beforeEach(() => {
     wrapper = mount(
       shallow(
-        <SearchInput placeholder={mockPlaceholder} setSearchWord={setState} />
+        <TagInput placeholder={mockPlaceholder} setTagName={setState} />
       ).get(0)
     );
   });
@@ -24,16 +24,16 @@ describe("tests search input component", () => {
 
   it("accepts props", () => {
     const wrapper = mount(
-      <SearchInput placeholder={mockPlaceholder} setSearchWord={setState} />
+      <TagInput placeholder={mockPlaceholder} setTagName={setState} />
     );
     expect(wrapper.props().placeholder).toBe(mockPlaceholder);
-    expect(wrapper.props().setSearchWord).toBe(setState);
+    expect(wrapper.props().setTagName).toBe(setState);
   });
 
-  it("Should capture search word correctly onChange", () => {
-    const searchWord = wrapper.find("input").at(0);
-    searchWord.instance().value = "Test";
-    searchWord.simulate("change");
+  it("Should capture tag input correctly onChange", () => {
+    const tagNmae = wrapper.find("input").at(0);
+    tagNmae.instance().value = "Test";
+    tagNmae.simulate("change");
     expect(setState).toHaveBeenCalledWith("Test");
   });
 });

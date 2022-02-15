@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests student name component renders without crashing 1`] = `
+<div
+  className="font-extrabold text-3xl"
+  style={
+    Object {
+      "fontWeight": "900",
+    }
+  }
+>
+  John
+</div>
+`;

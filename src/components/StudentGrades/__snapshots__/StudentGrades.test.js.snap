@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests grades component renders without crashing 1`] = `
+<div
+  className=" text-sm "
+>
+  Test 
+  NaN
+  :     
+  %
+</div>
+`;

@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`checks for changes in the code 1`] = `
+exports[`renders without crashing 1`] = `
 <img
+  alt="student image"
   className="border-2 rounded-full w-24 m-2"
+  src="https://storage.googleapis.com/images/itiis.jpg"
 />
 `;

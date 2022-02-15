@@ -4,11 +4,8 @@ import MinusButton from "./MinusButton";
 import toJson from "enzyme-to-json";
 
 describe("tests button component", () => {
-    it("renders without crashing", () => {
-    shallow(<MinusButton />);
-  });
 
-  it("checks for changes in the code", () => {
+  it("renders without crashing", () => {
     const wrapper = shallow(<MinusButton />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
