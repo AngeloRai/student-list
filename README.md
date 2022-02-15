@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-# Demo[https://list-students.netlify.app/]
+# [Demo](https://list-students.netlify.app/)
 
 https://list-students.netlify.app/
 <br/><br/><br/>
@@ -27,9 +27,12 @@ https://list-students.netlify.app/
 `npm run test `
 <br/>
 
-## About
+# About
 
-1. Application lists students info
-2. User can filter by name and tag
-3. User can see additional info through expandable detail section
-4. User can add tags to students
+## -- Application lists students info
+
+## -- User can filter by name and tag
+
+## -- User can see additional info through expandable detail section
+
+## -- User can add tags to students
