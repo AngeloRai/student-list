@@ -1,28 +1,34 @@
 # Getting Started with Create React App
 
+# Demo[https://hatchways-app-frontend.herokuapp.com/]
 
-## Available Scripts
+https://hatchways-app-frontend.herokuapp.com/
+<br/><br/><br/>
 
-In the project directory, you can run:
+## Installing in your macjine
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1 - Inside project directory install all dependencies (packages) by typing:
+`bash $ npm install `
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3 - Run project on browser by typing:
+`bash $ npm start `
 
-### `npm test`
+4. Go to http://localhost:3000
+   <br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## For tests
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. In root directory type:
+   `bash $ npm run test `
+   <br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## About
 
-
-
+--- Application lists students info
+--- User can filter by name and tag
+--- User can see additional info through expandable detail section
+--- User can add tags to students
