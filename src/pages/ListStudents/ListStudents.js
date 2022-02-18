@@ -79,7 +79,7 @@ const ListStudents = () => {
 
   return (
     <div className="h-[100vh] flex justify-center w-full bg-[#f3f3f3]">
-      <div className="relative overflow-auto w-3/5 mt-16 mb-10 rounded-lg bg-white shadow-slate-500 shadow-sm ">
+      <div className="relative overflow-auto w-full md:w-4/5 lg:w-3/5 md:mt-16 md:mb-10 rounded-lg bg-white shadow-slate-500 shadow-sm ">
         <div className="sticky top-0 bg-contain w-[100%] px-2 z-10">
           <SearchInput
             setSearchWord={setNameSearchWord}

@@ -20,11 +20,11 @@ const StudentCard = ({ student, addTag }) => {
   };
 
   return (
-    <div className="border-b-2 grid md:grid-cols-6 gap-1 w-full p-4">
-      <div className="col-span-1">
+    <div className="border-b-2 grid sm:grid-cols-3 md:grid-cols-6 gap-1 w-full p-4">
+      <div className="col-span-3 md:col-span-1 flex justify-center align-top">
         <AvatarRound image={student?.pic} alt="student avatar" />
       </div>
-      <div className="col-span-5">
+      <div className="col-span-3 md:col-span-5">
         <div className="flex justify-between">
           <div className="sm:ml-3 lg:ml-0">
             <StudentNameLg name={student?.fullName} />
